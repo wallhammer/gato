@@ -1,0 +1,40 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+main{
+    display: grid;
+    grid-template-columns: 15vw auto 15vw;
+    grid-template-rows: 10vh 60vh auto ;
+    grid-template-areas:
+    ". . ."
+    ". tablero . "
+    ". Marcador .";
+}
+.tablero{
+    grid-area: tablero;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 8px;
+    row-gap: 8px;
+    background-color: black;
+}
+.marcador{
+    grid-area:Marcador;
+}
+.casilla{
+    background-color: white;
+}
+.x{
+    content:"x";
+    display: flex;
+    align
+}
+.x:;before{
+content: "x";
+width:100%;
+text-align:center;
+font-sixe:3em;
+}
