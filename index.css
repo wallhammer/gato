@@ -1,0 +1,20 @@
+. contenedor {
+  alineación de texto : centro;
+}
+
+. contenedor-juego {
+  pantalla : cuadrícula;
+  columnas de plantilla de cuadrícula :  repetir ( 3 , automático);
+  ancho :  306 px ;
+  margen :  50 px automático;
+}
+
+. game-cell {
+  ancho :  100 px ;
+  altura :  100 px ;
+  caja-sombra :  0  0  0  1 px  # 333333 ;
+  borde :  1 px sólido # 333333 ;
+  cursor : puntero;
+  altura de línea :  100 px ;
+  tamaño de fuente :  60 px ;
+}
