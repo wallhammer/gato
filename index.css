@@ -1,20 +1,20 @@
-. contenedor {
-  alineación de texto : centro;
-}
-
-. contenedor-juego {
-  pantalla : cuadrícula;
-  columnas de plantilla de cuadrícula :  repetir ( 3 , automático);
-  ancho :  306 px ;
-  margen :  50 px automático;
-}
-
-. game-cell {
-  ancho :  100 px ;
-  altura :  100 px ;
-  caja-sombra :  0  0  0  1 px  # 333333 ;
-  borde :  1 px sólido # 333333 ;
-  cursor : puntero;
-  altura de línea :  100 px ;
-  tamaño de fuente :  60 px ;
-}
+.container {
+    text-align: center;
+  }
+  
+  .game-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 50px auto;
+  }
+  
+  .game-cell {
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 1px #333333;
+    border: 1px solid #333333;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+  }
